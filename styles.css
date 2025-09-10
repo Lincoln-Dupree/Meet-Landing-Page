@@ -16,7 +16,7 @@
 /* (7, 5, 4.5, 4, 3.5, 2.5, 2, 1.5, 1, 0.5, 0.25) */
 
 html {
-  font-size: 16px;
+  font-size: clamp(10px, 1.125vw, 20px);
 }
 
 * {
@@ -24,4 +24,76 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  /* including both vw and dvw to account for mobile/tablet UI elements not seen in the chrome dev tools*/
+  width: 100dvw;
+  width: 100vw;
+  height: auto;
+}
+
+.header {
+  /* background-color: coral; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 7rem;
+}
+
+.company-img {
+  transform: translate(-2rem, 0px);
+}
+
+.header-middle {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0rem;
+}
+
+.header-img-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: center;
+  padding: 0rem 1rem;
+}
+
+.header-title {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.header-text {
+  padding-top: 2rem;
+  font-size: 1.25rem;
+}
+
+.header-img-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+}
+
+.header-img {
+  width: 75%;
+  height: auto;
 }

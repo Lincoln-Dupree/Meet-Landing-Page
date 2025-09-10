@@ -1,0 +1,27 @@
+:root {
+  --Cyan-600: rgb(77, 150, 168);
+  --Cyan-300: rgb(143, 227, 249);
+  --Purple-600: rgb(133, 95, 177);
+  --Purple-300: rgb(217, 184, 255);
+  --Slate-900: rgb(40, 40, 61);
+  --Slate-600: rgb(135, 135, 157);
+  --Slate-300: rgb(209, 209, 223);
+  --White: rgb(250, 250, 250);
+}
+
+/* STYLES */
+/* FONT SIZES: 64, 40, 18, 16  */
+/* (4, 2.5, 1.125, 1) */
+/* SPACING: 112, 80, 72, 64, 56, 40, 32, 24, 16, 8, 4 */
+/* (7, 5, 4.5, 4, 3.5, 2.5, 2, 1.5, 1, 0.5, 0.25) */
+
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}

@@ -107,6 +107,14 @@ body {
   color: var(--Cyan-300);
 }
 
+.download-btn:hover {
+  background-color: var(--Cyan-300);
+}
+
+.download-btn:hover .download-btn-ver {
+  color: var(--Purple-600);
+}
+
 .what-btn {
   font-size: 1.25rem;
   padding: 1.25rem;
@@ -114,6 +122,10 @@ body {
   border-radius: 2.5rem;
   background-color: var(--Purple-600);
   color: var(--White);
+}
+
+.what-btn:hover {
+  background-color: var(--Purple-300);
 }
 
 /* .header-img-left-container {
@@ -236,4 +248,8 @@ body {
 
 .footer .download-btn-ver {
   color: var(--Purple-300);
+}
+
+.footer .download-btn:hover {
+  background-color: var(--Purple-300);
 }

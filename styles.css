@@ -83,6 +83,7 @@ body {
 .header-text {
   font-size: 1.25rem;
   color: var(--Slate-600);
+  font-weight: 700;
 }
 
 .header-btns {
@@ -201,6 +202,7 @@ body {
   width: 37.5%;
   color: var(--Slate-600);
   line-height: 1.5;
+  font-weight: 600;
 }
 
 .num-02-container {

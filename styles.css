@@ -121,7 +121,7 @@ body {
 
 .header-img-left {
   /* background-color: coral; */
-  width: 100%;
+  width: 25rem;
   height: auto;
   transform: translate(-1.5rem, 0);
 }
@@ -132,7 +132,108 @@ body {
 
 .header-img-right {
   /* background-color: coral; */
-  width: 100%;
+  width: 25rem;
   height: auto;
   transform: translate(1.5rem, 0);
+}
+
+.center-container {
+  /* background-color: rgb(246, 177, 246); */
+  width: 100%;
+  height: auto;
+  padding: 4rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-row-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 0rem;
+}
+
+.center-imgs {
+  width: 16rem;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.center-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center-sub-head {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--Cyan-600);
+  font-weight: 800;
+  letter-spacing: 0.25rem;
+}
+
+.center-header {
+  width: 35%;
+  font-size: 2.75rem;
+  font-weight: 900;
+  color: var(--Slate-900);
+  padding: 0.5rem 0rem 2rem 0rem;
+  line-height: 1;
+}
+
+.center-text {
+  width: 37.5%;
+  color: var(--Slate-600);
+  line-height: 1.5;
+}
+
+.num-02-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.num-02-icon {
+  transform: translate(0rem, 28px);
+}
+
+.footer-info {
+  background-image: url(/images/desktop/image-footer.jpg);
+  background-color: var(--Cyan-600);
+  background-blend-mode: multiply;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 6rem;
+  width: 100%;
+  color: var(--White);
+}
+
+.footer-header {
+  font-size: 2.5rem;
+}
+
+.footer-text {
+  font-size: 1.25rem;
+  padding: 0rem 10rem;
+}
+
+.footer .download-btn {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.25rem;
+  padding: 1.25rem;
+  border: none;
+  border-radius: 2.5rem;
+  background-color: var(--Purple-600);
+  background-size: cover;
+}
+
+.footer .download-btn-ver {
+  color: var(--Purple-300);
 }
